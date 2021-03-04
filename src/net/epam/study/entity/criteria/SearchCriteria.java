@@ -26,6 +26,8 @@ public final class SearchCriteria {
 		POWER_CONSUMPTION, NUMBER_OF_SPEAKERS, FREQUENCY_RANGE, CORD_LENGTH
 	}
 	
-	private SearchCriteria() {}
+	private SearchCriteria() {
+
+	}
 }
 

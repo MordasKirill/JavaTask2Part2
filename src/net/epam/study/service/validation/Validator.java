@@ -1,15 +1,11 @@
 package net.epam.study.service.validation;
 
 import net.epam.study.entity.criteria.Criteria;
+import net.epam.study.entity.criteria.SearchCriteria;
 
 public class Validator {
-	
+
 	public static boolean criteriaValidator(Criteria criteria) {
-		// you may add your own code here
-		
-		return true;
+		return criteria != null;
 	}
-
 }
-
-//you may add your own new classes
