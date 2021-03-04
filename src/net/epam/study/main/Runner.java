@@ -75,10 +75,10 @@ public class Runner {
 
 
 		Criteria criteriaSpeakers = new Criteria(SearchCriteria.Speakers.class.getSimpleName());
-		//criteriaSpeakers.add(SearchCriteria.Speakers.CORD_LENGTH.toString(), 2);
-		//criteriaSpeakers.add(SearchCriteria.Speakers.FREQUENCY_RANGE.toString(), "2-4");
-		//criteriaSpeakers.add(SearchCriteria.Speakers.NUMBER_OF_SPEAKERS.toString(), 2);
-		//criteriaSpeakers.add(SearchCriteria.Speakers.POWER_CONSUMPTION.toString(), 15);
+		criteriaSpeakers.add(SearchCriteria.Speakers.CORD_LENGTH.toString(), 2);
+		criteriaSpeakers.add(SearchCriteria.Speakers.FREQUENCY_RANGE.toString(), "2-4");
+		criteriaSpeakers.add(SearchCriteria.Speakers.NUMBER_OF_SPEAKERS.toString(), 2);
+		criteriaSpeakers.add(SearchCriteria.Speakers.POWER_CONSUMPTION.toString(), 15);
 
 		appliance = service.find(criteriaSpeakers);// find(Object...obj)
 		PrintApplianceInfo.printName(SearchCriteria.Speakers.class.getSimpleName());
