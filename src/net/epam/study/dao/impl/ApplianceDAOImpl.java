@@ -10,7 +10,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ApplianceDAOImpl implements ApplianceDAO {
-	private static List<String> textFromFile = new ArrayList<>();
+	private static final List<String> textFromFile = new ArrayList<>();
 	private static Object[] keysArray;
 	private static Object[] valuesArray;
 	public static void fileReader() throws IOException {

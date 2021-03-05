@@ -73,6 +73,7 @@ public class Runner {
 		PrintApplianceInfo.printName(SearchCriteria.Laptop.class.getSimpleName());
 		PrintApplianceInfo.print(appliance);
 
+		//////////////////////////////////////////////////////////////////
 
 		Criteria criteriaSpeakers = new Criteria(SearchCriteria.Speakers.class.getSimpleName());
 		criteriaSpeakers.add(SearchCriteria.Speakers.CORD_LENGTH.toString(), 2);
