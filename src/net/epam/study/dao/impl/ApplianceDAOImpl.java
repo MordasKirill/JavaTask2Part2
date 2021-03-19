@@ -9,7 +9,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class ApplianceDAOImpl implements ApplianceDAO {
+public class ApplianceDAOImpl implements ApplianceDAO {// я уже этот код видела пару проверок назад 
 	private static final List<String> textFromFile = new ArrayList<>();
 	private static Object[] keysArray;
 	private static Object[] valuesArray;
